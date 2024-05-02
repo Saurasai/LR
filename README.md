@@ -1,23 +1,41 @@
+Certainly! Here's the README file based on the provided code snippet:
+
+---
+
 # Ecommerce Customer Data Analysis
 
 ## Overview
-This project aims to analyze customer data for an **Ecommerce company** based in **New York City**. The company sells clothing online and provides in-store style and clothing advice sessions. Customers can visit the store for sessions with a personal stylist and then place orders through either a **mobile app** or **website**.
+This project involves the analysis of customer data for an Ecommerce company based in New York City. The company offers clothing online sales and in-store style and clothing advice sessions. Customers can access these services through a mobile app or website.
 
 ## Objective
-The primary objective of this analysis is to help the Ecommerce company decide whether to focus their efforts on improving the **mobile app experience** or the **website**. By analyzing customer data, including **usage patterns, purchase history, demographics**, etc., we aim to identify key insights that will inform the company's strategic decision-making process.
+The main goal of this analysis is to assist the Ecommerce company in determining whether to prioritize improving the mobile app experience or the website. By analyzing customer data, including their session behavior, purchase history, and other relevant factors, we aim to provide insights that will guide the company's decision-making process.
 
 ## Dataset
-The dataset used for this analysis contains anonymized information about customer interactions with the **Ecommerce platform**. It includes data on **customer demographics, session durations, pages visited, purchase history**, device types used (mobile app or website), etc.
+The dataset used for this analysis is named "Ecommerce Customers". It contains anonymized information about customers, including their email addresses, addresses, avatars, average session length, time spent on the app and website, length of membership, and yearly amount spent.
 
 ## Methodology
-We will employ **linear regression analysis** to gain insights into the factors that influence customer behavior and preferences on the mobile app and website platforms. This will involve identifying relevant independent variables (such as session duration, number of pages visited, etc.) and their impact on the dependent variable (e.g., purchase amount).
+The analysis involves several steps:
+
+1. Exploratory Data Analysis (EDA):
+   - Descriptive statistics are computed using `describe()` to understand the distribution of numerical features.
+   - The `info()` method provides insights into the dataset's structure and data types.
+   - Data visualization using `matplotlib` and `seaborn` libraries to explore relationships between variables.
+  
+2. Linear Regression:
+   - Linear regression models are used to predict the yearly amount spent by customers based on various features.
+   - The model is trained on a subset of the data using the `train_test_split` method from `sklearn.model_selection`.
+   - The model's coefficients are computed to understand the relationships between predictor variables and the target variable.
+   - Predictions are made on the test data, and performance metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) are calculated using `sklearn.metrics`.
 
 ## Key Findings
-Based on our linear regression analysis, we will summarize **key findings** and insights regarding the factors that influence customer purchase behavior on the mobile app and website platforms. This will include identifying significant predictors of purchase amount and understanding how these variables interact with each other.
-
-## Recommendations
-Finally, we will provide **recommendations** to the Ecommerce company based on our findings from the linear regression analysis. These recommendations will inform the company's decision on whether to prioritize improving the mobile app experience, the website, or both platforms. We will also suggest specific strategies and initiatives that the company can undertake to enhance the overall customer experience and drive business growth.
+Based on the linear regression analysis, the following key findings have been identified:
+- Customers who spend more time on the app tend to spend more annually compared to those who spend more time on the website.
+- Length of membership is strongly positively correlated with yearly amount spent.
+- The coefficients of the linear regression model indicate the impact of each predictor variable on the yearly amount spent.
 
 ## Conclusion
-In conclusion, this analysis aims to provide valuable insights and recommendations to the Ecommerce company, enabling them to make informed decisions regarding their platform optimization strategy. By leveraging linear regression analysis, we can uncover actionable insights that will help the company better understand and meet customer needs, ultimately leading to improved business performance.
+This analysis provides valuable insights into customer behavior and preferences for the Ecommerce company. Based on the findings, the company can make informed decisions about prioritizing improvements to the mobile app or website to enhance the overall customer experience and drive business growth.
 
+---
+
+Feel free to customize or expand upon this README file as needed! Let me know if you need any further assistance.
