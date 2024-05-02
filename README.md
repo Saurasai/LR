@@ -1,4 +1,4 @@
-# Ecommerce Customer Data Science
+# Unveiling Customer Behavior: A Linear Regression Approach to Ecommerce Data
 
 ## Overview
 This project involves the analysis of customer data for an Ecommerce company based in New York City. The company offers clothing online sales and in-store style and clothing advice sessions. Customers can access these services through a mobile app or website.
