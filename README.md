@@ -1,8 +1,4 @@
-Certainly! Here's the README file based on the provided code snippet:
-
----
-
-# Ecommerce Customer Data Analysis
+# Ecommerce Customer Data Science
 
 ## Overview
 This project involves the analysis of customer data for an Ecommerce company based in New York City. The company offers clothing online sales and in-store style and clothing advice sessions. Customers can access these services through a mobile app or website.
@@ -36,6 +32,3 @@ Based on the linear regression analysis, the following key findings have been id
 ## Conclusion
 This analysis provides valuable insights into customer behavior and preferences for the Ecommerce company. Based on the findings, the company can make informed decisions about prioritizing improvements to the mobile app or website to enhance the overall customer experience and drive business growth.
 
----
-
-Feel free to customize or expand upon this README file as needed! Let me know if you need any further assistance.
